@@ -1,11 +1,36 @@
 <header class="site-header" role="banner">
-  <a
-    class="site-title"
-    rel="author"
-    href="{{ "/" | relative_url }}">
-    LU
-  </a>
-  <nav class="site-nav">
+  <div class="site-brand">
+    <a class="site-logo-link" rel="author" href="{{ "/" | relative_url }}">
+      <img
+        class="site-logo"
+        src="{{ '/assets/logo/coloured.svg' | relative_url }}"
+        alt="Ungur Group logo">
+      <img
+        class="site-logo site-logo--invert"
+        src="{{ '/assets/logo/digital_white.svg' | relative_url }}"
+        alt="Ungur Group logo">
+    </a>
+    <div class="site-title-block">
+      <span class="site-name">Ungur Group</span>
+      <span class="site-divider" aria-hidden="true"></span>
+      <span class="site-sub">NUS</span>
+    </div>
+  </div>
+  <button
+    class="nav-toggle"
+    id="nav-toggle"
+    aria-label="Menu"
+    aria-controls="site-nav"
+    aria-expanded="false">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+
+  <div class="nav-backdrop" id="nav-backdrop" aria-hidden="true"></div>
+
+  <nav class="site-nav" id="site-nav" aria-label="Main">
+    <div class="nav-links">
     <button
       class="theme-toggle"
       id="theme-toggle"
@@ -86,5 +111,6 @@
       {% assign item_url = item.link | remove: ".html" %}
       <a class="page-link {% if current_url == item_url %}active{% endif %}" href="{{ item.link | relative_url }}">{{ item.name }}</a>
     {% endfor %}
+    </div>
   </nav>
 </header>

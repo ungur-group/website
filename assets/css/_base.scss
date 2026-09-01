@@ -1,24 +1,33 @@
 /* Global */
 
 :root {
-    --bg: #eee;
+    --bg: #eef1f8;
     --fg: #111;
-    --accent: #07d;
+    --accent: #394799;
     --border-color: #aaa;
     --dark-border-color: #000;
-    --font-stack: "Segoe UI", "Roboto", "Helvetica", "Arial", "sans-serif";
-    --abstract-bg: #eee;
+    --font-stack: "Open Sans", "Segoe UI",  "Roboto", "Helvetica", "Arial", "sans-serif";
+    --heading-font: "Lora", "Georgia", "Times New Roman", "serif";
+    --abstract-bg: #eef1f8;
     --abstract-border: #ccc;
+    --hero-bg: #394799d9;
+    --hero-fg: #fff;
+    --card-gradient: linear-gradient(to bottom, #e7e8f4 0%, #eff0f8 40%, #fbfbfd 68%, #ffffff 100%);
+    --card-shadow: 0 1px 2px rgba(47, 43, 40, 0.05), 0 10px 24px -8px rgba(47, 43, 40, 0.14);
 }
 
 [data-theme="dark"] {
     --bg: #222;
     --fg: #ddd;
-    --accent: #8ae;
+    --accent: #abdfec;
     --border-color: #444;
     --dark-border-color: #fff;
     --abstract-bg: #333;
     --abstract-border: #555;
+    --hero-bg: #abdfecd9;
+    --hero-fg: #111;
+    --card-gradient: linear-gradient(to bottom, #2e2f33 0%, #29292c 40%, #232324 68%, #1f1f20 100%);
+    --card-shadow: 0 1px 2px rgba(0, 0, 0, 0.5), 0 12px 28px -10px rgba(0, 0, 0, 0.7);
 }
 
 * {
@@ -31,6 +40,10 @@ body {
     line-height: 1.6;
     color: var(--fg);
     background-color: var(--bg);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
 }
 
 a {

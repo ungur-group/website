@@ -1,8 +1,15 @@
-- title: "Computational Molecular Magnetism"
-  description: "Investigating the electronic and magnetic properties of molecular materials using ab initio methods to design better single-molecule magnets."
+- header: "AI-driven methods"
+  icon: "ai"
+  items:
+    - title: "ML for atomistic simulations"
+      description: "Leveraging AI and ML techniques to accelerate computational modelling of large-scale complex systems."
+    - title: "AI-driven synthesis"
+      description: "Accessing large combinatorial spaces for experimental material design."
 
-- title: "Machine Learning for Electronic Structure"
-  description: "Leveraging artificial intelligence and machine learning techniques to accelerate computational modelling and solve complex electronic structure problems."
-
-- title: "Spin-Phonon Couplings"
-  description: "Studying the interaction between spin and lattice degrees of freedom to understand and enhance the stability and performance of molecular magnetic materials."
+- header: "Electronic structure"
+  icon: "electronic"
+  items:
+    - title: "Magnetism"
+      description: "Investigating electronic and magnetic properties of 3d/4f materials using ab initio methods."
+    - title: "Vibronic coupling"
+      description: "Coupling between vibrational and electronic degrees of freedom."

@@ -1,33 +1,168 @@
 .hero-header {
-    font-weight: 600;
+    display: grid;
+    grid-template-columns: 1fr 280px;
+    gap: 48px;
+    align-items: center;
+    padding: 56px;
+    border-radius: 16px;
+    background: var(--hero-bg);
+    color: var(--hero-fg);
+    border-bottom: none;
+    margin-bottom: 40px;
+    --tagline-size: 38px;
+    --hero-text-gap: clamp(14px, calc(var(--tagline-size) * 12 / 19), 24px);
 
-    .title {
-        font-size: 2.5em;
-        margin: 0 0 20px 0;
+    .hero-text {
+        display: flex;
+        flex-direction: column;
+        gap: var(--hero-text-gap);
     }
 
     .tagline {
-        font-size: 1.4em;
-        margin: 0 0 10px 0;
+        margin: 0;
+        font-family: 'Alegreya Sans', sans-serif;
+        font-size: var(--tagline-size);
+        line-height: 1.14;
+        font-weight: 700;
+        letter-spacing: -0.02em;
+        color: var(--hero-fg);
+    }
+
+    .tagline-1,
+    .tagline-2 {
+        display: block;
+        white-space: nowrap;
+    }
+
+    .tagline-1 {
+        font-size: 1.05em;
+    }
+
+    .tagline-2 {
+        font-size: 0.88em;
+        font-weight: 400;
+        color: var(--hero-fg);
+        opacity: 0.65;
+    }
+
+    .hero-rule {
+        width: 64px;
+        height: 2px;
+        background: var(--hero-fg);
+        opacity: 0.5;
     }
 
     .execution {
-        font-size: 1.1em;
+        margin: 0;
+        font-family: 'Alegreya Sans', sans-serif;
+        /* Keeps the same ratio to the tagline (20px at the 38px base
+           size) so it scales proportionally at every breakpoint. */
+        font-size: clamp(16px, calc(var(--tagline-size) * 10 / 19), 20px);
+        line-height: 1.4;
+        font-weight: 500;
+        color: var(--hero-fg);
+        opacity: 0.85;
+        max-width: 54ch;
+        text-wrap: pretty;
+    }
+
+    .hero-image {
+        flex-shrink: 0;
+        max-width: 280px;
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        background: #ffffff;
+        border-radius: 16px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    }
+}
+
+@media (max-width: 860px) {
+    .hero-header {
+        grid-template-columns: 1fr;
+        align-items: center;
+        gap: 32px;
+        padding: 32px;
+
+        /* Scales continuously with viewport width (rather than a fixed
+           30px plateau) so both title spans keep fitting on one line all
+           the way down to narrow phones, only wrapping in unrealistic
+           extreme cases. .execution follows via --tagline-size. */
+        --tagline-size: clamp(16px, calc(8.8vw - 10px), 30px);
+
+        .tagline-1,
+        .tagline-2 { white-space: normal; }
+
+        .hero-image {
+            max-width: none;
+            margin: 0 auto;
+        }
     }
 }
 
 .research-cards {
+    border-top: 2px solid var(--border-color);
+    padding-top: 0px;
+
     .research-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        /* min(400px, 100%) keeps cards from overflowing narrow phone widths. */
+        grid-template-columns: repeat(auto-fill, minmax(min(400px, 100%), 1fr));
         gap: 20px;
         margin: 30px 0px;
     }
 
     .research-card {
-        border: 2px solid var(--dark-border-color);
+        border: none;
         padding: 20px;
         border-radius: 16px;
+        background: var(--card-gradient);
+        box-shadow: var(--card-shadow);
+
+        ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+    }
+
+    .research-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        width: 100%;
+        /* Matches the AI graphic's native ratio so it fills the full width;
+           the flatter electronic graphic then also fills the width and is
+           letterboxed within the same fixed height. */
+        aspect-ratio: 3753 / 1481;
+        margin-bottom: 16px;
+        padding: 16px 24px;
+        overflow: hidden;
+
+        .research-icon-img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .research-icon-img--dark {
+            display: none;
+        }
+
+        [data-theme="dark"] & .research-icon-img--light {
+            display: none;
+        }
+
+        [data-theme="dark"] & .research-icon-img--dark {
+            display: block;
+        }
     }
 }
 

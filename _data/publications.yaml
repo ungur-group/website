@@ -45,7 +45,7 @@
   journal: Computational Modelling of Molecular Nanomagnets
   links:
     doi: 10.1007/978-3-031-31038-6_3
-    pdf: "assets/publications/book/giang2023_BC.pdf"
+    # pdf: "assets/publications/book/giang2023_BC.pdf"
   abstract: "The magnetic exchange interaction between metal centers in multinuclear compounds plays a defining role in their low-temperature magnetic behavior. Predicting magnetic exchange by computational methods is of high importance for the development of novel magnetic, spintronic materials, and devices that drives further the development of advanced computational methods. In this chapter, we give a brief overview of the origin of magnetic exchange and describe various microscopic theories accounting for it. Several computational approaches which allow the estimation of magnetic exchange in multinuclear compounds are reviewed. Computational challenges of the existing methods for accounting for the magnetic exchange will be discussed in detail in subsequent sections. The combination between accurate on-site eigenstates obtained in <i>ab initio</i> calculations (CASSCF + SOC + ANISO) and theoretical modeling of the magnetic dipole–dipole and exchange interactions within the Lines model, and the recently developed kinetic exchange model is described alongside several recent examples. The last section offers a review of several results obtained recently and gives our perspective on how to achieve an efficient interplay between strong magnetic exchange and a highly axial crystal field on metal sites for designing better exchange-coupled multinuclear single-molecule magnets."
 
 # Publications
@@ -2019,7 +2019,7 @@
   journal: Dalton Transactions
   links:
     doi: 10.1039/C9DT02434D
-    pdf: "assets/publications/2019/Kuhne_DT_2019.pdf"
+    # pdf: "assets/publications/2019/Kuhne_DT_2019.pdf"
     si: "assets/publications/2019/Kuhne_DT_2019_SI.pdf"
     cif: "assets/publications/2019/Kuhne_DT_2019.cif"
   abstract: "We present the synthesis, magnetic and photophysical properties of four mononuclear Ln<sup>III</sup> complexes in two isostructural lattices containing Gd<sup>III</sup> and Er<sup>III</sup>. A heptadentate Schiff base ligand and acetate versus trifluoroacetate were used to synthesise complexes <b>1</b>–<b>4</b>, among which the two Er<sup>III</sup> complexes <b>2</b> and <b>4</b> exhibit field-induced SIM behaviour with almost similar <i>U</i><sub>eff</sub> values (31.6 K for <b>2</b> and 32.7 K for <b>4</b>). Ab initio calculations show the structure of the low-lying energy states and highlight that there is already significant tunnelling in the ground doublet state, but the application of a weak magnetic field of 0.05 T is sufficient for ac magnetic measurements to suppress tunnelling in the ground state. The calculated main magnetic axes (<i>g</i><sub>Z</sub>) of the ground Kramers doublets show small differences between the two Er<sup>III</sup> compounds <b>2</b> and <b>4</b> due to their different ligand fields."
@@ -2042,7 +2042,7 @@
   journal: Inorganic Chemistry
   links:
     doi: 10.1021/acs.inorgchem.0c00616
-    pdf: "assets/publications/2020/Li_IC_2020.pdf"
+    # pdf: "assets/publications/2020/Li_IC_2020.pdf"
     si: "assets/publications/2020/Li_IC_2020_SI.pdf"
     cif: "assets/publications/2020/Li_IC_2020.cif"
   abstract: "It is a crucial challenge to address both magnetic anisotropy and stability for single-molecule magnets (SMMs) used in next-generation nanodevices. Highly axial lanthanide SMMs with neutral charge and moderate coordination numbers represent promising magnetic materials. Here, using iodide ions with large volume and low surface charge density as weak donors, we report a six-coordinate neutral dysprosium SMM [Dy(Cy<sub>3</sub>PO)<sub>2</sub>I<sub>3</sub>(CH<sub>3</sub>CN)] with a certain degree of stability exhibiting a huge thermal barrier of 1062 K and hysteresis loops open up to 9 K. Through the elaborate reduction of ligand field strength, an apparent strongly axial crystal field is provided which elicits prominent crystal-field splitting and high axiality with the thermally activated relaxation via the third-excited Kramers' doublet. Moreover, the profound influence of strong equatorial ligand substitution on the electronic structure and relaxation pathway is clearly explored in Dy<sup>III</sup> analogues. The result suggests the great potential of the reducing the transverse ligand field in the improvement of SMMs performance."
@@ -2061,7 +2061,7 @@
   journal: Angewandte Chemie International Edition
   links:
     doi: 10.1002/anie.202003399
-    pdf: "assets/publications/2020/Zhang_Angew_2020.pdf"
+    # pdf: "assets/publications/2020/Zhang_Angew_2020.pdf"
     si: "assets/publications/2020/Zhang_Angew_2020_SI.pdf"
   abstract: "Complexes of trivalent lanthanides (Ln) are known to possess strong magnetic anisotropy, which enables them to be efficient single-molecule magnets. High-level ab initio calculations are reported for [LnO] (where Ln is terbium (Tb), dysprosium (Dy), or holmium (Ho)), which show that divalent lanthanides can exhibit equally strong magnetic anisotropy and magnetization blocking barriers. In particular, detailed calculations predict a multilevel magnetization blocking barrier exceeding 3000 K for a [DyO] complex deposited on a hexagonal boron nitride (h-BN) surface, bringing the expected performance of single-molecule magnets to a qualitatively new level compared to the current state-of-the art complexes."
   image: "assets/publications/2020/Zhang_Angew_2020.png"
@@ -2080,7 +2080,7 @@
   journal: Matter
   links:
     doi: 10.1016/j.matt.2020.02.021
-    pdf: "assets/publications/2020/Zhang_Matter_2020.pdf"
+    # pdf: "assets/publications/2020/Zhang_Matter_2020.pdf"
     si: "assets/publications/2020/Zhang_Matter_2020_SI.pdf"
     cif: "assets/publications/2020/Zhang_Matter_2020.cif"
   abstract: "Toroidal molecular magnets represent promising candidates for next-generation ultra-dense information storage. These wheel-like molecules are able to store one bit per molecule because of their insensitivity to homogeneous magnetic fields—one of the main sources of magnetic perturbations. However, synthesis of molecules possessing a well-defined and stable vortex arrangement of the on-site magnetic moments in the ground state represents a challenge. Here, we show that 16 magnetic metal ions can be alternately arranged into a macrocycle named {Fe<sub>8</sub>Dy<sub>8</sub>}. The net toroidal moment can be experimentally determined at 0.23 Tesla. Moreover, ab initio calculations were performed to reveal that ferromagnetic exchange interactions between the Fe<sup>III</sup> and Dy<sup>III</sup> metal centers are the key to generate this toroidal moment. This feature is significantly distinguished from the previously described dipole-dipole interactionbased single-molecule toroics (SMTs), showing the importance of exchange-coupling interactions in the design of next-generation SMTs."
@@ -2105,7 +2105,7 @@
   journal: Chemistry – A European Journal
   links:
     doi: 10.1002/chem.201905796
-    pdf: "assets/publications/2020/Horii_CEJ_2020.pdf"
+    # pdf: "assets/publications/2020/Horii_CEJ_2020.pdf"
     si: "assets/publications/2020/Horii_CEJ_2020_SI.pdf"
   abstract: "Gd<sup>3+</sup> complexes have been shown to undergo unusual slow magnetic relaxation processes similar to those of single-molecule magnets (SMMs), even though Gd<sup>3+</sup> does not exhibit strong magnetic anisotropy. To reveal the origin of the slow magnetic relaxation of Gd<sup>3+</sup> complexes, we have investigated the magnetic properties and heat capacities of two Gd<sup>3+</sup>-phthalocyaninato triple-decker complexes, one of which has intramolecular Gd<sup>3+</sup>–Gd<sup>3+</sup> interactions and the other does not. It was found that the Gd<sup>3+</sup>–Gd<sup>3+</sup> interactions accelerate the magnetic relaxation processes. In addition, magnetically diluted samples, prepared by doping a small amount of the Gd<sup>3+</sup> complexes into a large amount of diamagnetic Y<sup>3+</sup> complexes, underwent dual magnetic relaxation processes. A detailed dynamic magnetic analysis revealed that the coexistence of spin–lattice relaxation and phonon-bottleneck processes is the origin of the dual magnetic relaxation processes."
   image: "assets/publications/2020/Horii_CEJ_2020.png"
@@ -2157,7 +2157,7 @@
   journal: The Journal of Chemical Physics
   links:
     doi: 10.1063/5.0004835
-    pdf: "assets/publications/2020/OpenMolcas_JCP_2020.pdf"
+    # pdf: "assets/publications/2020/OpenMolcas_JCP_2020.pdf"
     si: "assets/publications/2020/OpenMolcas_JCP_2020_SI.pdf"
   abstract: "MOLCAS/OpenMolcas is an ab initio electronic structure program providing a large set of computational methods from Hartree–Fock and density functional theory to various implementations of multiconfigurational theory. This article provides a comprehensive overview of the main features of the code, specifically reviewing the use of the code in previously reported chemical applications as well as more recent applications including the calculation of magnetic properties from optimized density matrix renormalization group wave functions."
   image: "assets/publications/2020/OpenMolcas_JCP_2020.png"
@@ -2183,7 +2183,7 @@
   journal: Chemistry – A European Journal
   links:
     doi: 10.1002/chem.202001365
-    pdf: "assets/publications/2020/Yamashita_CEJ_2020.pdf"
+    # pdf: "assets/publications/2020/Yamashita_CEJ_2020.pdf"
     si: "assets/publications/2020/Yamashita_CEJ_2020_SI.pdf"
   abstract: "Presented here is a comprehensive study of highly oxidized multiple-decker complexes composed of Tb<sup>III</sup> and Cd<sup>II</sup> ions and two to five phthalocyaninato ligands, which are stabilized by electron-donating n-butoxy groups. From X-ray structural analyses, all the complexes become axially compressed upon ligand oxidation, resulting in bowl-shaped distortions of the ligands. In addition, unusual coexistence of square antiprism and square prism geometries around metal ions was observed in +4e charged species. From paramagnetic <sup>1</sup>H NMR studies on the resulting series of triple, quadruple and quintuple-decker complexes, ligand oxidation leads to a decrease in the magnetic anisotropy, as predicted from theoretical calculations. Unusual paramagnetic shifts were observed in the spectra of the +2e charged quadruple and quintuple-decker complexes, indicating that those two species are actually unexpected triplet biradicals. Magnetic measurements revealed that the series of complexes show single-molecule magnet properties, which are controlled by the multi-step redox induced structural changes."
   image: "assets/publications/2020/Yamashita_CEJ_2020.png"
@@ -2198,7 +2198,7 @@
   journal: The Journal of Chemical Physics
   links:
     doi: 10.1063/5.0014753
-    pdf: "assets/publications/2020/Wong_JCP_2020.pdf"
+    # pdf: "assets/publications/2020/Wong_JCP_2020.pdf"
     si: "assets/publications/2020/Wong_JCP_2020_SI.pdf"
   abstract: "The vibronic coupling constants of the cyclopentadienyl radical have been calculated with G<sub>0</sub>W<sub>0</sub>, HF, and density functional theory (DFT) with various exchange-correlation functionals such as PBE, PBE0, LC-ωPBE, and the non-empirically tuned LC-ωPBE∗. The vibronic coupling constants for HF and DFT were derived using the gradients of the eigenvalues of the degenerate HOMOs of the closed-shell cyclopentadienyl anion, while the gradients of the corresponding quasiparticle energy levels were used in the case of G<sub>0</sub>W<sub>0</sub>. The differences between the linear vibronic constants obtained using HF and DFT were found to be small and reduced further when the G<sub>0</sub>W<sub>0</sub> correction is applied to HF and DFT. Finally, the linear vibronic coupling constants calculated with G<sub>0</sub>W<sub>0</sub> were found to agree well with the values obtained using high level wave function methods in the literature, which suggests that G<sub>0</sub>W<sub>0</sub> can be a useful tool toward the study of vibronic coupling."
   image: "assets/publications/2020/Wong_JCP_2020.png"
@@ -2220,7 +2220,7 @@
   journal: CCS Chemistry
   links:
     doi: 10.31635/ccschem.020.202000204
-    pdf: "assets/publications/2020/Wu_CCS_Chem_2020.pdf"
+    # pdf: "assets/publications/2020/Wu_CCS_Chem_2020.pdf"
     si: "assets/publications/2020/Wu_CCS_Chem_2020_SI.pdf"
   abstract: "Dynamic molecular materials, which involve mechanical motions in crystals, usually exhibit tunable properties related to conformational polymorphs. Herein, we describe a solvent-free molecular crystal [{Fe<sup>III</sup>(salten)}<sub>2</sub>(TPB)](BPh<sub>4</sub>)<sub>2</sub> (<b>I</b>) developed by associating the rotatable tetraphenylborate anion with the spin crossover (SCO) binuclear iron(III) cation. The solvent-free phase <b>I</b> can undergo a temperature-induced phase transformation to phase <b>II</b>, during which rotation of the BPh<sub>4</sub><sup>-</sup> anion interplays with the SCO component, giving rise to fascinating variations in SCO (from gradual to abrupt) and dielectric properties. Most importantly, an unexpected polymorphic transformation from <b>II</b> to <b>III</b> or <b>IV</b>, with increasing magnetic hysteresis, is realized by exposing <b>II</b> to water or ethanol vapor; the transition is reversible by heating. This rare successive transformation is further rationalized by theoretical calculations. Hence, this multiresponse system provides a new way for modulating synergistic effects and designing dynamic SCO materials by integrating intramolecular motions in the crystal lattice."
   image: "assets/publications/2020/Wu_CCS_Chem_2020.png"
@@ -2235,7 +2235,7 @@
   journal: Physical Chemistry Chemical Physics
   links:
     doi: 10.1039/D1CP00452B
-    pdf: "assets/publications/2021/Nguyen_PCCP_2021.pdf"
+    # pdf: "assets/publications/2021/Nguyen_PCCP_2021.pdf"
     si: "assets/publications/2021/Nguyen_PCCP_2021_SI.pdf"
   abstract: "Herein, we report a theoretical investigation of the electronic structure and magnetic properties in [(Cp<sup>Me4H</sup><sub>2</sub>Ln(THF))<sub>2</sub>(μ-N<sub>2</sub><sup>•</sup>)]<sup>−</sup> and [(Cp<sup>Me4H</sup><sub>2</sub>Ln)<sub>2</sub>(μ-N<sub>2</sub><sup>•</sup>)]<sup>−</sup> (THF = tetrahydrofuran, Cp<sup>Me4H</sup> = tetramethylcyclopentadienyl, Ln = Tb, Dy) complexes [as reported in Demir et al., Nat. Commun., 8, 1–9, 2144 (2017)]. By ab initio methods, their magnetic blocking behaviors are successfully characterized allowing elucidation of the origin of the two blocking barriers observed experimentally. In addition, a detailed analysis of exchange wave functions explains why the blocking barrier of the Tb complexes is roughly twice as large as that of the Dy analogues, a fact which appears to be a general trend exhibited in this family of compounds."
   image: "assets/publications/2021/Nguyen_PCCP_2021.png"
@@ -2257,7 +2257,7 @@
   journal: Inorganic Chemistry
   links:
     doi: 10.1021/acs.inorgchem.1c00581
-    pdf: "assets/publications/2021/Grebenyuk_IC_2021.pdf"
+    # pdf: "assets/publications/2021/Grebenyuk_IC_2021.pdf"
     si: "assets/publications/2021/Grebenyuk_IC_2021_SI.pdf"
     cif: "assets/publications/2021/Grebenyuk_IC_2021.cif"
   abstract: "The unique family of coordination polymers [Ln<sub>4</sub>(OH)<sub>2</sub>(piv)<sub>10</sub>(H<sub>2</sub>O)<sub>2</sub>]<sub>∞</sub> of 11 lanthanides (Ln = La-Er) has been prepared by a simple solution method based on controlled hydrolysis. The ribbon-like polymeric structure consisting of connected tetranuclear clusters and supported by pivalate ligands and a framework of H-bonds has been revealed by single-crystal X-ray diffraction. While the compounds demonstrate similar PXRD patterns and unit cell parameters, the joint single-crystal XRD and pair distribution function data suggest the significant local structure change along the lanthanide series. The compounds exist as two packing polymorphs (α and β) with similar ribbon geometry, but different supramolecular arrangement of the ribbons. Dehydration of either polymorph does not disturb the tetranuclear core but leads to a translational symmetry loss along the ribbon and a transformation of the 3D-ordered crystal into a 2D-ordered mesostructure. Rehydration of the mesostructure leads to the β polymorph (except La and Ce), allowing the deliberate switching between the polymorphs via dehydration-rehydration evidenced by means of powder X-ray diffraction, pair distribution function analysis, and density functional theory calculations. Ab initio calculations reveal significant magnetic anisotropy of Ln<sup>3+</sup> ions with ferro- and antiferromagnetic interactions within tetranuclear [Ln<sub>4</sub>(OH)<sub>2</sub>(piv)<sub>10</sub>(H<sub>2</sub>O)<sub>2</sub>] species. Magnetic susceptibility measurements demonstrated antiferromagnetic coupling, slow magnetic relaxation for Dy, Ho, and Er complexes, and field-induced single-chain magnetism for the Dy compound."
@@ -2282,7 +2282,7 @@
   journal: Journal of Materials Chemistry C
   links:
     doi: 10.1039/D1TC00894C
-    pdf: "assets/publications/2021/Andruh_J_Mat_Chem_C_2021.pdf"
+    # pdf: "assets/publications/2021/Andruh_J_Mat_Chem_C_2021.pdf"
     si: "assets/publications/2021/Andruh_J_Mat_Chem_C_2021_SI.pdf"
     cif: "assets/publications/2021/Andruh_J_Mat_Chem_C_2021.cif"
   abstract: "Three new binuclear Fe<sup>III</sup>–Ln<sup>III</sup> complexes, with similar structures, have been synthesized using the end-off compartmental proligand, H<sub>2</sub>valpn, resulting from the Schiff condensation between o-vanillin and 1,3-propylenediamine: [Fe<sup>III</sup>Ln<sup>III</sup>(valpn)(hfac)<sub>2</sub>(OAc)Cl] (Ln = Gd, Tb, Dy; hfac<sup>−</sup> = hexafluoroacetylacetonate; AcO<sup>−</sup> = acetate). The metal ions are triply bridged by two phenoxido oxygen atoms and by the acetato ligand (syn–syn bridging mode). Among all these compounds the Fe<sup>III</sup>–Ln<sup>III</sup> exchange interaction was found to be ferromagnetic (<i>J</i><sub>FeGd</sub> = +1.004(4) cm<sup>-1</sup>; <i>H</i> = −<i>J</i><i>S</i><sub>Fe</sub><i>S</i><sub>Gd</sub>). The [Fe<sup>III</sup>Dy<sup>III</sup>] derivative shows field-induced slow relaxation of the magnetization. The interpretation of the magnetic properties for the [Fe<sup>III</sup>Gd<sup>III</sup>], [Fe<sup>III</sup>Tb<sup>III</sup>] and [Fe<sup>III</sup>Dy<sup>III</sup>] is done through ab initio calculations. It was concluded that the temperature behavior of the relaxation time in the [Fe<sup>III</sup>Dy<sup>III</sup>] derivative is due to dominant Orbach relaxation processes between states at the opposite sides and opposite heights of the blocking barrier. From this understanding, the relaxation mechanism for similar systems where a transition metal is in exchange coupling with a strong anisotropic lanthanide ion is elucidated, which could provide a strategy to synthesize other binuclear complexes with better magnetic properties."
@@ -2298,7 +2298,7 @@
   journal: Physical Chemistry Chemical Physics
   links:
     doi: 10.1039/D1CP02795F
-    pdf: "assets/publications/2021/Wong_PCCP_2021.pdf"
+    # pdf: "assets/publications/2021/Wong_PCCP_2021.pdf"
     si: "assets/publications/2021/Wong_PCCP_2021_SI.pdf"
   abstract: "The linear vibronic coupling constants of the benzene radical cation and anion have been obtained with different levels of the GW approximation, including G<sub>0</sub>W<sub>0</sub>, eigenvalue self-consistent GW, and quasiparticle self-consistent GW, as well as DFT with the following exchange–correlation functionals: BLYP, B3LYP, CAM-B3LYP, tuned CAM-B3LYP, and an IP-tuned CAM-B3LYP functional. The vibronic coupling constants were calculated numerically using the gradients of the eigenvalues of the degenerate HOMOs and LUMOs of the neutral benzene molecule for DFT, while the numerical gradients of the quasiparticle energies were used in the case of GW. The results were evaluated against those of high level wave function methods in the literature, and the approximate self-consistent GW methods and G<sub>0</sub>W<sub>0</sub> with long-range corrected functionals were found to yield the best results on the whole."
   image: "assets/publications/2021/Wong_PCCP_2021.png"
@@ -2317,7 +2317,7 @@
   journal: Dalton Transactions
   links:
     doi: 10.1039/D1DT01558C
-    pdf: "assets/publications/2021/Ungur_DT_2021.pdf"
+    # pdf: "assets/publications/2021/Ungur_DT_2021.pdf"
     si: "assets/publications/2021/Ungur_DT_2021_SI.pdf"
   abstract: "The magnetism of a recently synthesized trans-[Os<sup>IV</sup>Cl<sub>4</sub>(κN<sup>1</sup>-Hind)<sub>2</sub>] complex (5d<sup>4</sup>-system), where Hind = 2H-indazole, was studied experimentally and theoretically. Relativistic CASSCF/CASPT2 calculations for this and model [Os<sup>IV</sup>Cl<sub>6</sub>]<sup>2−</sup> complexes were employed to understand the nature of the low-lying multiplets. It is found that despite strong metal–ligand covalency they are basically characterized by the total angular pseudo-momentum <i>J</i>̃ originating from the spin–orbit coupling of the ground-state spin <i>S</i> = 1 with the orbital pseudo-momentum <i>L</i>̃ = 1 of the Os<sup>IV</sup> ion. The strong spin–orbit interaction also preserves the dominant <i>J</i>̃ = 0 character of the non-magnetic ground state in the trans-[Os<sup>IV</sup>Cl<sub>4</sub>(κN<sup>1</sup>-Hind)<sub>2</sub>] complex despite significant deviation of the ligand environment of Os<sup>IV</sup> from octahedral symmetry. At the same time the spin–orbit admixture of all multiplets arising from the t<sub>2g</sub><sup>4</sup> strong-field electronic configuration is indispensable for the correct description of magnetic properties of Os<sup>IV</sup> complexes. Moreover, based on ab initio calculations, we argue that the charge-transfer states play an important role in the magnetism of the present and probably other 5d complexes, a situation never encountered for 3d and 4f compounds."
   image: "assets/publications/2021/Ungur_DT_2021.png"
@@ -2337,7 +2337,7 @@
   journal: Angewandte Chemie International Edition
   links:
     doi: 10.1002/anie.202112764
-    pdf: "assets/publications/2021/Liu_Angew_2021.pdf"
+    # pdf: "assets/publications/2021/Liu_Angew_2021.pdf"
     si: "assets/publications/2021/Liu_Angew_2021_SI.pdf"
     cif: "assets/publications/2021/Liu_Angew_2021.cif"
   abstract: "Here we reported the deuteration of the metal-binding equatorial water molecules in a reported Ho<sup>III</sup> single-molecule magnet (SMM) with pentagonal-bipyramidal geometry, from [Ho(CyPh<sub>2</sub>PO)<sub>2</sub>(H<sub>2</sub>O)<sub>5</sub>]<sup>3+</sup> to [Ho(CyPh<sub>2</sub>PO)<sub>2</sub>(D<sub>2</sub>O)<sub>5</sub>]<sup>3+</sup>. The hyperfine structures originating from the nuclear spin of <sup>165</sup>Ho<sup>III</sup> can be clearly observed. Moreover, the resulting magnetization dynamics revealed the switch of the relative relaxation rates for the two isotope-isomorphic complexes—respectively faster/slower at low/high temperature. The noticeable isotope effect arises from not only the paramagnetic metal center but also the diamagnetic ligands, which can be explained by the ab initio calculated tunnel splitting and the involvement of the super-hyperfine interaction related to the difference in the nuclear spin number of protium (<sup>1</sup>H, <i>I</i> = 1/2) and deuterium (<sup>2</sup>H, <i>I</i> = 1)."
@@ -2355,7 +2355,7 @@
   journal: Inorganic Chemistry Frontiers
   links:
     doi: 10.1039/D1QI01459E
-    pdf: "assets/publications/2022/Yang_ICF_2022.pdf"
+    # pdf: "assets/publications/2022/Yang_ICF_2022.pdf"
     si: "assets/publications/2022/Yang_ICF_2022_SI.pdf"
     cif: "assets/publications/2022/Yang_ICF_2022.cif"
   abstract: "Terbium-based complexes are passable in the study of single molecule toroics (SMTs). Herein, the syntheses and characterizations of a series of Tb<sub>4</sub> SMTs isolated from reduced or dimerized Schiff base ligands are presented. These complexes share a similar μ<sub>4</sub>-O bridged Tb<sub>4</sub> square core and show diamagnetic ground states. Micro-SQUID technique was carried out on a single-crystal sample and the results suggest that there is a toroidal arrangement of the magnetic moments. Ab initio calculations are performed on these complexes and confirm the mixed-moment SMT properties. This allowed us to access a new strategy for generating single molecule toroics in terbium-based molecules."
@@ -2373,7 +2373,7 @@
   journal: Chemical Communications
   links:
     doi: 10.1039/D1CC06265D
-    pdf: "assets/publications/2022/Yang_CC_2022.pdf"
+    # pdf: "assets/publications/2022/Yang_CC_2022.pdf"
     si: "assets/publications/2022/Yang_CC_2022_SI.pdf"
     cif: "assets/publications/2022/Yang_CC_2022.cif"
   abstract: "Magnetic investigation and ab initio calculations reveal toroidal arrangement of the magnetic moment rather than centripetal anisotropies in a tetrahedral Dy<sub>4</sub> complex."
@@ -2395,7 +2395,7 @@
   journal: Dalton Transactions
   links:
     doi: 10.1039/D2DT00058J
-    pdf: "assets/publications/2022/You_DT_2022.pdf"
+    # pdf: "assets/publications/2022/You_DT_2022.pdf"
     si: "assets/publications/2022/You_DT_2022_SI.pdf"
     cif: "assets/publications/2022/You_DT_2022.cif"
   abstract: "Manipulating the transition temperature (<i>T</i><sub>1/2</sub>) of spin-crossover (SCO) complexes capable of fulfilling practical criteria through different synthetic strategies is one of the main focuses in the field of molecular magnetism. The reaction of the tricyanometallate precursor [(Tp*)Fe<sup>III</sup>(CN)<sub>3</sub>]<sup>−</sup> and Fe<sup>II</sup> salt with the “facially” tridentate ligand tris(2-pyridyl)phosphine oxide (TPPO) and NCE<sup>−</sup> anions afforded three isostructural {Fe<sup>III</sup><sub>2</sub>Fe<sup>II</sup><sub>2</sub>} square complexes {[(Tp*)Fe<sup>III</sup>(CN)<sub>3</sub>]<sub>2</sub>[Fe<sup>II</sup>(TPPO)]<sub>2</sub>[NCE]<sub>2</sub>}·Sol (E = S, Sol = 2CH<sub>3</sub>OH·6H<sub>2</sub>O, <b>1</b>; E = Se, Sol = 2MeCN·2CH<sub>2</sub>Cl<sub>2</sub>·2H<sub>2</sub>O, <b>2</b>; E = BH<sub>3</sub>, Sol = 4CH<sub>3</sub>OH·2MeCN, <b>3</b>). Detailed structural analysis, variable-temperature IR analysis, magnetic susceptibility measurements and DFT calculations revealed that all compounds exhibit complete and one-step SCO behaviour between the {Fe<sup>III</sup>,LS<sub>2</sub>Fe<sup>II</sup>,HS<sub>2</sub>} and {Fe<sup>III</sup>,LS<sub>2</sub>Fe<sup>II</sup>,LS<sub>2</sub>} electronic states. As the ligand field increases from NCS<sup>−</sup> to NCSe<sup>−</sup> to NCBH<sub>3</sub><sup>−</sup>, <i>T</i><sub>1/2</sub> shifts dramatically from 214 to 250 to 288 K for <b>1</b>, <b>2</b> and <b>3</b>, respectively, demonstrating another effective way to tune the SCO properties of the [Fe<sup>III</sup>–CN–Fe<sup>II</sup>] systems through the introduction of NCE<sup>−</sup> co-ligands."
@@ -2412,7 +2412,7 @@
     - L. Ungur
   links:
     doi: 10.1002/chem.202200227
-    pdf: "assets/publications/2022/Nguyen_CEJ_2022.pdf"
+    # pdf: "assets/publications/2022/Nguyen_CEJ_2022.pdf"
     si: "assets/publications/2022/Nguyen_CEJ_2022_SI.pdf"
   abstract: "Employing radical bridges between anisotropic metal ions has been a viable route to achieve high-performance single-molecule magnets (SMMs). While the bridges have been mainly considered for their ability to promote exchange interactions, the crystal-field effect arising from them has not been taken into account explicitly. This lack of consideration may distort the understanding and limit the development of the entire family. To shed light on this aspect, herein we report a theoretical investigation of a series of N<sub>2</sub><sup>3-</sup>-radical-bridged diterbium complexes. It is found that while promoting strong exchange coupling between the terbium ions, the N<sub>2</sub><sup>3-</sup>-radical induces a crystal field that interferes destructively with that of the outer ligands, and thus reduces the overall SMM behavior. Based on the theoretical results, we conclude that the SMM behavior in this series could be further maximized if the crystal field of the outer ligands is designed to be collinear with that of the radical bridge. This conclusion can be generalized to all exchange-coupled SMMs."
   image: "assets/publications/2022/Nguyen_CEJ_2022.png"
@@ -2436,7 +2436,7 @@
   journal: Chemistry – A European Journal
   links:
     doi: 10.1002/chem.202200687
-    pdf: "assets/publications/2022/Hou_CEJ_2022.pdf"
+    # pdf: "assets/publications/2022/Hou_CEJ_2022.pdf"
     si: "assets/publications/2022/Hou_CEJ_2022_SI.pdf"
   abstract: "The incorporation of organic radicals into coordination polymers was considered as a promising strategy to promote metal-ligand exchange interactions, but there are only a very limited number of stable organic radical-based ligands that can serve well such a purpose. Herein, we report two new tris(2,4,6-trichlorophenyl)methyl (TTM) radical-based ligands L1 and L2 with two and three imidazole substituents, respectively. The imidazole unit serves as a coordination site and it can also stabilize the TTM radical by intramolecular donor–acceptor interaction. Coordination of L1 and L2 with cobalt(II) ions gave the corresponding one- (CoCP-1) and two-dimensional (CoCP-2) coordination polymers, the structures of which were confirmed by X-ray crystallographic analysis. Magnetic measurements and theoretical calculations suggest antiferromagnetic coupling between the paramagnetic cobalt(II) ions and the radical ligands. Our study provides a rational design for stable organic radical-based ligands and further demonstrated the feasibility of a metal–radical approach toward magnetic materials."
   image: "assets/publications/2022/Hou_CEJ_2022.png"
@@ -2457,7 +2457,7 @@
   journal: Inorganic Chemistry
   links:
     doi: 10.1021/acs.inorgchem.2c00192
-    pdf: "assets/publications/2022/You_IC_2022.pdf"
+    # pdf: "assets/publications/2022/You_IC_2022.pdf"
     si: "assets/publications/2022/You_IC_2022_SI.pdf"
     cif: "assets/publications/2022/You_IC_2022.cif"
   abstract: "The incorporation of two different cyanide building blocks of [(TpR)Fe<sup>III</sup>(CN)<sub>3</sub>]<sup>-</sup> and [Au<sup>I</sup>(CN)<sub>2</sub>]<sup>-</sup> into one molecule afforded a novel hexanuclear [Fe<sup>III</sup><sub>2</sub>Fe<sup>II</sup><sub>2</sub>Au<sup>I</sup><sub>2</sub>] complex (<b>1</b>·2Et<sub>2</sub>O), in which the cyanide-bridged [Fe<sup>III</sup><sub>2</sub>Fe<sup>II</sup><sub>2</sub>] square was further grafted by two [Au<sup>I</sup>(CN)<sub>2</sub>]<sup>-</sup> fragments as long arms in syn orientations. Complex <b>1</b>·2Et<sub>2</sub>O undergoes a gradual spin crossover (SCO) from low-spin (LS) to high-spin (HS) state for the Fe<sup>II</sup> centers upon desolvation. Remarkably, its desolvated phase (<b>1</b>) exhibits a reversible but atypical two-step (sharp-gradual) SCO behavior with considerable hysteresis (21 K). Variable-temperature single-crystal X-ray structural studies reveal that the hysteretic spin transition takes place synchronously with the concerted displacive motions of the molecules, representing another rare example including multistep and hysteretic spin transitions due to the synergetic SCO and structural phase transition."
@@ -2476,7 +2476,7 @@
   journal: Inorganic Chemistry
   links:
     doi: 10.1021/acs.inorgchem.2c00071
-    pdf: "assets/publications/2022/Ungur_IC_2022.pdf"
+    # pdf: "assets/publications/2022/Ungur_IC_2022.pdf"
     si: "assets/publications/2022/Ungur_IC_2022_SI.pdf"
   abstract: "A current understanding of the luminescence of lanthanide complexes is based on the phenomenological Judd–Ofelt (JO) theory. However, the mechanisms of electric-dipole transitions lying at its basis were never subjected to a rigorous analysis. Here, we investigate the contributions to the electric-dipole transitions in the Er<sup>3+</sup> <sup>4</sup>S<sub>3/2</sub> → <sup>4</sup>I<sub>15/2</sub> band of an erbium trensal complex using state-of-the-art ab initio calculations. We find that the conventional JO mechanism based on the electrostatic crystal field yields only a quarter of the integral intensity of this band. Accordingly, three quarters of it is contributed by covalent binding of erbium and ligand orbitals via three major mechanisms, the 4f ligand and ligand-ligand electric-dipole transitions and covalent enhancement of the hybridization of 4f and even empty orbitals of erbium. We expect that these findings will inspire the design of efficient rare-earth luminescent materials."
   image: "assets/publications/2022/Ungur_IC_2022.png"
@@ -2492,7 +2492,7 @@
   journal: Applied Clay Science
   links:
     doi: 10.1016/j.clay.2022.106519
-    pdf: "assets/publications/2022/Tan_Appl_Clay_Sci_2022.pdf"
+    # pdf: "assets/publications/2022/Tan_Appl_Clay_Sci_2022.pdf"
     si: "assets/publications/2022/Tan_Appl_Clay_Sci_2022_SI.pdf"
   abstract: "Layered double hydroxides (LDH) belong to a class of highly versatile compounds used in a myriad of applications such as energy storage, catalysis, heavy metal adsorption, etc. Given the high tunability of its structure, ranging from different metal cations to different types of intercalations, LDH can be readily customised to suit the intended applications. One of the inherent problem of LDH lies in their carbonate contamination. The presence of CO<sub>3</sub><sup>2-</sup> anions in the intercalation greatly affects the versatility and tunability of LDH. Carbonate intercalation also poses as an interfering species for reactions involving carbonate as intermediates or final products. Unfortunately, existing synthesis procedures of LDH produce either carbonates during the precipitating process or poorly crystallised LDH that absorbs atmospheric carbon dioxide to form carbonates during the drying process; either way results in carbonate contaminated LDH. In this work, we address the problem with the use of ethylenediamine (EDA) complexation followed by controlled decomplexation to prepare CoAl LDH (LDH-EDA). It is shown that the obtained LDH-EDA is carbonate-free and outperforms the CoAl LDH obtained using conventional urea method (LDH-Urea) in terms of crystallinity, surface area and pseudocapacitive properties. Through a detailed experimental and computational study of the preparation mechanism, we propose that ammonium nitrate acts as an acid that mediates the decomplexation of the cobalt (II) trisethylenediamine complex, freeing Co<sup>2+</sup> ion in a control manner for the second precipitation process. The multistep process has allowed a controlled rate of formation of LDH, resulting in the highly crystalline LDH-EDA microstructures with pure nitrate intercalation and a flower-like morphology."
   image: "assets/publications/2022/Tan_Appl_Clay_Sci_2022.png"
@@ -2613,7 +2613,7 @@
   journal: Journal of Chemical Theory and Computation
   links:
     doi: 10.1021/acs.jctc.3c00182
-    pdf: "assets/publications/2023/LiManni_JCTC_2023.pdf"
+    # pdf: "assets/publications/2023/LiManni_JCTC_2023.pdf"
     si: "assets/publications/2023/LiManni_JCTC_2023_SI.pdf"
   abstract: "The developments of the open-source OpenMolcas chemistry software environment since spring 2020 are described, with a focus on novel functionalities accessible in the stable branch of the package or via interfaces with other packages. These developments span a wide range of topics in computational chemistry and are presented in thematic sections: electronic structure theory, electronic spectroscopy simulations, analytic gradients and molecular structure optimizations, ab initio molecular dynamics, and other new features. This report offers an overview of the chemical phenomena and processes OpenMolcas can address, while showing that OpenMolcas is an attractive platform for state-of-the-art atomistic computer simulations."
   image: "assets/publications/2023/LiManni_JCTC_2023.png"
@@ -2632,7 +2632,7 @@
   journal: Dalton Transactions
   links:
     doi: 10.1039/D3DT01325A
-    pdf: "assets/publications/2023/Arumugam_DT_2023.pdf"
+    # pdf: "assets/publications/2023/Arumugam_DT_2023.pdf"
     si: "assets/publications/2023/Arumugam_DT_2023_SI.pdf"
   abstract: "The present work describes the dynamic magnetic properties of the complex [(Cp<sup>Ar3</sup>)<sub>4</sub>Dy<sup>III</sup><sub>2</sub>Cl<sub>4</sub>K<sub>2</sub>]·3.5(C<sub>7</sub>H<sub>8</sub>) (<b>1</b>), synthesized by employing a tri-aryl-substituted cyclopentadienyl ligand (Cp<sup>Ar3</sup>), [4,4′-(4-phenylcyclopenta-1,3-diene-1,2-diyl)bis(methylbenzene) = Cp<sup>Ar3</sup>H]. Each Dy<sup>III</sup>-metallocene weakly couples via K<sub>2</sub>Cl<sub>4</sub>, displaying slow relaxation of magnetization below 14.5 K under zero applied dc field via KD<sub>3</sub> energy levels with an energy barrier of 136.9/133.7 cm<sup>-1</sup> on the Dy sites. The single-ion axial anisotropy energy barrier is reduced by geometrical distortion due to the coordination of two chloride ions at each Dy centre."
   image: "assets/publications/2023/Arumugam_DT_2023.png"
@@ -2652,7 +2652,7 @@
   journal: European Journal of Inorganic Chemistry
   links:
     doi: 10.1002/ejic.202300598
-    pdf: "assets/publications/2024/Kushvaha_EJIC_2024.pdf"
+    # pdf: "assets/publications/2024/Kushvaha_EJIC_2024.pdf"
     si: "assets/publications/2024/Kushvaha_EJIC_2024_SI.pdf"
   abstract: "Single–ion magnets (SIMs) possessing a Dy<sup>III</sup> ion have recently attracted huge scientific attention. Herein, we report on a Dy<sup>III</sup>-radical single–molecule magnet containing a seven-coordinate Dy<sup>III</sup> ion with an O<sub>3</sub>N<sub>3</sub>Cl donor set. The frequency–dependent slow relaxation of magnetization has been observed below 8 K. DC magnetic studies have shown the presence of weak antiferromagnetic coupling between the Kramers ion (Dy<sup>III</sup>, <i>J</i> = 15/2) and the ligand-centered radical electron (<i>S</i> = 1/2) which was confirmed by multifunctional CASSCF calculations."
   image: "assets/publications/2024/Kushvaha_EJIC_2024.png"
@@ -2674,7 +2674,7 @@
   journal: Journal of the American Chemical Society
   links:
     doi: 10.1021/jacs.4c07412
-    pdf: "assets/publications/2024/Zhu_JACS_2024.pdf"
+    # pdf: "assets/publications/2024/Zhu_JACS_2024.pdf"
     si: "assets/publications/2024/Zhu_JACS_2024_SI.pdf"
     cif: "assets/publications/2024/Zhu_JACS_2024.cif"
   abstract: "In recent years, dysprosium macrocycle single-molecule magnets (SMMs) have received increasing attention due to their excellent air/thermal stability, strong magnetic anisotropy, and rigid molecular skeleton. However, they usually display fast zero-field quantum tunneling of the magnetization (QTM) rate, severely hindering their data storage applications. Herein, we report the design, synthesis, and characterization of an air-stable monodecker didysprosium macrocycle integrating strong single-ion anisotropy, near-perfect local crystal field (CF) symmetry, and efficient exchange bias. These indispensable features enable clear-cut elucidation of the crucial role of very weak antiferromagnetic coupling on magnetization dynamics, creating a prominent SMM with a large effective energy barrier (<i>U</i><sub>eff</sub>) of 670 cm<sup>-1</sup>, open hysteresis loops at zero field up to 14.9 K, and a record relaxation time of QTM (<i>τ</i><sub>QTM</sub>), 24281 s, for all known nonradical-bridged lanthanide SMMs."
@@ -2699,7 +2699,7 @@
   journal: CCS Chemistry
   links:
     doi: 10.31635/ccschem.024.202404999
-    pdf: "assets/publications/2025/Gou_CCS_Chem_2025.pdf"
+    # pdf: "assets/publications/2025/Gou_CCS_Chem_2025.pdf"
     si: "assets/publications/2025/Gou_CCS_Chem_2025_SI.docx"
   abstract: "Light-induced transformation from diamagnetic ligand to paramagnetic radical offers a unique approach to modulating the magnetization dynamics of magnetic compounds. In this study, we present a two-dimensional Yb(III) coordination polymer <b>1</b> and its Y(III)-diluted analog <b>1@Y</b>, along with their light-induced radical forms, <b>1a</b> and <b>1a@Y</b>. Due to the presence of light-induced radicals, the magnetic susceptibility properties (<i>χ</i><sub>M</sub><i>T</i> values) of <b>1a</b> and <b>1a@Y</b> featured remarkable 82.3% and 88.9% enhancements, respectively, at room temperature, compared with those of <b>1</b> and <b>1@Y</b>, and were accompanied by an unexpected increase in the effective energy barrier for magnetization dynamics. The magnetization dynamics of <b>1</b> and <b>1a</b> involved both Orbach and Raman processes, while <b>1@Y</b> and <b>1a@Y</b> exhibited two Raman processes, indicating that the Orbach process that occurred in <b>1</b> and <b>1a</b> was mainly attributed to the magnetic coupling between Yb(III) ions. This work showcases the potential of light-induced radical transformation for tuning both the static and dynamic magnetic properties of lanthanide coordination polymers."
   image: "assets/publications/2025/Gou_CCS_Chem_2025.png"
@@ -2724,7 +2724,7 @@
   journal: Science Advances
   links:
     doi: 10.1126/sciadv.ads3406
-    pdf: "assets/publications/2025/Stepanenko_SciAdv_2025.pdf"
+    # pdf: "assets/publications/2025/Stepanenko_SciAdv_2025.pdf"
     si: "assets/publications/2025/Stepanenko_SciAdv_2025_SI.pdf"
   abstract: "Osmium complexes with osmium in different oxidation states (II, III, IV, and VI) have been reported to exhibit antiproliferative activity in cancer cell lines. Herein, we demonstrate unexplored opportunities offered by <sup>187</sup>Os nuclear forward scattering (NFS) and nuclear inelastic scattering (NIS) of synchrotron radiation for characterization of hyperfine interactions and lattice dynamics in a benchmark Os(VI) complex, K<sub>2</sub>[OsO<sub>2</sub>(OH)<sub>4</sub>]. We determined the isomer shift [<i>δ</i> = 3.3(1) millimeters per second] relative to [Os<sup>IV</sup>Cl<sub>6</sub>]<sup>2−</sup> and quadrupole splitting [<i>Δ</i><i>E</i><sub>Q</sub> = 12.0(2) millimeters per second] with NFS. We estimated the Lamb–Mössbauer factor [0.80(4)], extracted the density of phonon states, and carried out a thermodynamics characterization using the NIS data combined with first-principles calculations. Overall, we provide evidence that <sup>187</sup>Os nuclear resonance scattering is a reliable technique for the investigation of hyperfine interactions and Os-specific vibrations in osmium(VI) species and is thus applicable for such measurements in osmium complexes of other oxidation states, including those with anticancer activity such as Os(III) and Os(IV)."
   image: "assets/publications/2025/Stepanenko_SciAdv_2025.png"
@@ -2743,7 +2743,7 @@
   journal: Angewandte Chemie International Edition
   links:
     doi: 10.1002/anie.202422549
-    pdf: "assets/publications/2025/Stepanovic_Angew_2025.pdf"
+    # pdf: "assets/publications/2025/Stepanovic_Angew_2025.pdf"
     si: "assets/publications/2025/Stepanovic_Angew_2025_SI.pdf"
     vid 1: "assets/publications/2025/Stepanovic_Angew_2025_2_2_dte_opening.mp4"
     vid 2: "assets/publications/2025/Stepanovic_Angew_2025_5_5_dte_opening.mp4"
@@ -2764,7 +2764,7 @@
   journal: Chemical Communications
   links:
     doi: 10.1039/D4CC06550F
-    pdf: "assets/publications/2025/Francis_CC_2025.pdf"
+    # pdf: "assets/publications/2025/Francis_CC_2025.pdf"
     si: "assets/publications/2025/Francis_CC_2025_SI.pdf"
     cif: "assets/publications/2025/Francis_CC_2025.cif"
   abstract: "Two novel atomically precise tetra-nuclear cobalt clusters (<b>3a</b>–<b>3b</b>) having a Co<sup>II</sup><sub>4</sub>O core with 3-fold symmetry, and three short Co–Co distances of 2.7046(4) Å are isolated with three chelating NP-donor mono-anionic ligands. <b>3a</b>–<b>3b</b> are shown to react with O<sub>2</sub>, producing dinuclear cobalt complexes (<b>4a</b>–<b>4b</b>), where the P-centres of the ligands are oxygenated. All complexes are structurally characterized by single-crystal X-ray diffraction, and further studied by UV-vis, IR spectroscopy, CV, magnetic susceptibility measurements, and DFT calculations."
@@ -2783,7 +2783,7 @@
   journal: Crystal Growth & Design
   links:
     doi: 10.1021/acs.cgd.5c00037
-    pdf: "assets/publications/2025/Madhuri_CGD_2025.pdf"
+    # pdf: "assets/publications/2025/Madhuri_CGD_2025.pdf"
     si: "assets/publications/2025/Madhuri_CGD_2025_SI.pdf"
   abstract: "A novel ferromagnetically coupled dianionic linear Co<sup>II</sup><sub>3</sub> complex has been synthesized and characterized as a potential single-molecule magnet (SMM) with enhanced axial magnetic anisotropy. This complex features three Co<sup>II</sup> ions out of which one Co<sup>II</sup> ion adopts an octahedral geometry and two other Co<sup>II</sup> ions adopt tetrahedral coordination geometries. The Co<sup>II</sup> ions are bridged by two siloxane dianions in a η<sup>2</sup>:η<sup>2</sup>:μ<sub>3</sub> fashion leading to a butterfly-like molecular structure, which has been studied by magnetic susceptibility measurements. Computational analysis using OpenMOLCAS, CASSCF, and CASPT2 methods revealed ferromagnetic (FM) exchange coupling between the neighboring Co<sup>II</sup> ions of about +10.2 cm<sup>–1</sup> and strong axial anisotropy parallel to the Co–Co axis for the ground exchange states. From ab initio POLY-ANISO analysis, a total magnetization blocking barrier of about 70 cm<sup>–1</sup> (101 K) and strongly reduced probabilities for quantum tunneling due to FM coupling were predicted. Magnetic ac susceptibility measurements revealed slow magnetic relaxation via an Orbach relaxation process with <i>U</i><sub>eff</sub> = 94(4) K and <i>τ</i><sub>0</sub> = 4(2)×10<sup>–10</sup> s (fitted from 8.5 to 6.25 K). Below 5 K, a pinched open hysteresis can be observed that opens more when approaching 2 K, indicating very slow magnetic relaxation in this temperature range in agreement with the predicted small quantum tunneling probabilities. These very slow magnetic relaxation times were further investigated by time-dependent dc magnetometry. Our study presents the first report on the influence of siloxane bridge binding on the SMM property of Co<sup>II</sup> nuclei by in-depth theoretical analysis and experimental susceptibility measurements, indicating the design of improved materials."
   image: "assets/publications/2025/Madhuri_CGD_2025.png"
@@ -2809,7 +2809,7 @@
   journal: Dalton Transactions
   links:
     doi: 10.1039/D5DT00727E
-    pdf: "assets/publications/2025/Das_DT_2025.pdf"
+    # pdf: "assets/publications/2025/Das_DT_2025.pdf"
     si: "assets/publications/2025/Das_DT_2025_SI.pdf"
     cif: "assets/publications/2025/Das_DT_2025.cif"
   abstract: "Two redox-active Co(II)-radical complexes (<b>3a</b> and <b>3b</b>), featuring a high-spin tetrahedral Co(II) ion, have been isolated as dark blue needles and remain stable in air for over a week. These complexes contain two redox non-innocent ligands (a carbene and a dithiolene), each with different coordinating atoms (two sulfur atoms and one carbon atom). Cyclic voltammetry (CV) reveals that complex <b>3a</b> and <b>3b</b> can form their corresponding mono-cation at potentials above −0.61 V. The structure of the complexes has been determined by single-crystal X-ray diffraction, and it has been further characterized by UV-vis, IR, Raman, EPR, and spectroscopy. DC/AC magnetometry measurements of complex <b>3a</b> show antiferromagnetic coupling between the high-spin tetrahedral Co(II) ion and the dithiolene-centered radical electron, as concluded from DFT calculations, with support from EPR measurements. Quantum mechanical magnetic model fitting to the experimental data sets suggested that complex <b>3a</b> exists in equilibrium between <i>S</i> = 1 and <i>S</i> = 2 states, depending on temperature, as reflected in the <i>M</i> vs. <i>H</i> plots. The stability, bonding, and electron density distribution of this air-stable complex <b>3a</b> have also been studied using various quantum chemical calculations. This dark-colored, photo-redox active complex (<b>3a</b>) was found to catalyse the synthesis of the well-known alkaloid natural product, N-isopentylcrinasiadine (<b>5b</b>), under photocatalytic conditions using a 427 nm Kessil light source. Additionally, complex <b>3a</b> also catalyses a copolymerization reaction in the presence of a chloride ion."
@@ -2827,7 +2827,7 @@
   journal: Chemical Physics Impact
   links:
     doi: 10.1016/j.chphi.2025.100931
-    pdf: "assets/publications/2025/Mo_CPI_2025.pdf"
+    # pdf: "assets/publications/2025/Mo_CPI_2025.pdf"
     si: "assets/publications/2025/Mo_CPI_2025_SI.pdf"
   abstract: "Dynamic properties of the alkali-doped molecular crystal K<sub>3</sub>C<sub>60</sub> are investigated using machine learning force field (MLFF). Our trained force fields successfully reproduce phonons comparable to those from density functional theory 10-times faster in computational efficiency. Specific heat with MLFF also show good agreement with experimental data, demonstrating its reliability for thermodynamic analysis. Two descriptor schemes, Smooth Overlap of Atomic Positions and Atomic Cluster Expansion, are employed and systematically compared. This study represents the first detailed exploration of dynamic properties in molecular crystals using MLFF, highlighting MLFF's potential in more complex molecular crystals, such as C<sub>60</sub> disorder in fullerides, molecular melting."
   image: "assets/publications/2025/Mo_CPI_2025.png"
@@ -2848,7 +2848,7 @@
   journal: Inorganic Chemistry
   links:
     doi: 10.1021/acs.inorgchem.5c01839
-    pdf: "assets/publications/2025/Wang_IC_2025.pdf"
+    # pdf: "assets/publications/2025/Wang_IC_2025.pdf"
     si: "assets/publications/2025/Wang_IC_2025_SI.pdf"
   abstract: "Organosilicon diradicals with singlet or triplet spin states of the two unpaired electrons are one of the foci in main group chemistry. However, to date, the reported isolable ones are still scarce owing to their high reactivity and lack of suitable synthetic methods. In this article, a series of diradical silacycles and their corresponding isomers 1,3-disila-pyrroles were facilely obtained via the reactions of a silaiminyl-silylene (<b>1</b>) serving as a precursor of “masked” bis-silylene, with various diarylacetylenes. The computed reaction mechanisms indicated a concomitant and energetically favored formation of both isomers through distinct paths. Theoretical studies demonstrated that the singlet diradicaloid silacycles (<b>2</b>) bear two unpaired electrons asymmetrically distributed in the molecular backbone and have a remarkably small singlet-triplet energy gap that results in the observable NMR and electron paramagnetic resonance signals. Moreover, the reactivity studies of the diradical silacycle were also conducted, giving rise to multiple hydrochlorinated products under the treatment of HCl and a monoradical cation (<b>6</b>) and a dication (<b>7</b>) via stepwise oxidation of AgOTf. Compounds <b>6</b> and <b>7</b> were isolated, characterized, and studied by density functional theory calculations. Interestingly, the heterocyclic compound <b>4</b> containing a CNPSi<sub>2</sub> ring isolated from the reaction of <b>1</b> and Ad-C≡P showed Möbius-type aromaticity with the <i>NICS</i>(0) value of -6.8."
   image: "assets/publications/2025/Wang_IC_2025.png"
@@ -2871,7 +2871,7 @@
   journal: Journal of Materials Chemistry A
   links:
     doi: 10.1039/D5TA08423G
-    pdf: "assets/publications/2026/Das_JMCA_2026.pdf"
+    # pdf: "assets/publications/2026/Das_JMCA_2026.pdf"
     si: "assets/publications/2026/Das_JMCA_2026_SI.pdf"
     cif: "assets/publications/2026/Das_JMCA_2026.cif"
   abstract: "Chromium, an earth-abundant metal with an accessible redox potential of −0.74 V vs. RHE, emerges as a promising element for the design of high-energy-density supercapacitors. Beyond their intriguing chemistry, energy storage devices employing stable redox-active radicals of main-group elements gain increasing attention for sustainable applications. Herein, the pseudo-supercapacitive properties of two unprecedented, photo-redox active, air-stable Cr(III)-triradical complexes with the general formula [Cr(III)(SS-NHC = E<sup>•−</sup>)<sub>3</sub>] (<b>1</b>, E = S; <b>2</b>, E = Se; (SS-NHC = E) : S<sub>2</sub>-donor dithiolene ligand) are reported. Electrochemical anodes fabricated by coating these complexes onto stainless-steel substrates exhibited excellent supercapacitance performance. Complex <b>1</b> delivered a specific capacitance of 145.2 F g<sup>−1</sup>, while complex <b>2</b> showed a markedly higher value of 340.9 F g<sup>−1</sup> at 5 mV s<sup>−1</sup>, centred at <i>E</i><sub>1/2</sub> = −0.72 V. Cycling stability reached 81.2% for complex <b>1</b> and 87.3% for complex <b>2</b> after 3000 cycles. The superior activity of complex <b>2</b> arises from the substitution of sulfur with selenium in the SS-NHC = E<sup>•−</sup> ligand, which enhances redox activity, conductivity, and ion transport. Ragone plot analysis confirmed a higher energy density (14.63 Wh kg<sup>−1</sup> at 252 W kg<sup>−1</sup>) for complex <b>2</b> compared to complex <b>1</b> (8.76 Wh kg<sup>−1</sup> at 211 W kg<sup>−1</sup>). Mechanistic studies revealed that complex <b>1</b> operated via mixed surface- and diffusion-controlled processes, whereas complex <b>2</b> predominantly followed diffusion control, enabling efficient charge transport and improved pseudocapacitive behaviour."
@@ -2898,7 +2898,42 @@
   journal: Nature Chemistry
   links:
     doi: 10.1038/s41557-026-02070-4
-    pdf: "assets/publications/2026/Zhu_NatChem_2026.pdf"
+    # pdf: "assets/publications/2026/Zhu_NatChem_2026.pdf"
     si: "assets/publications/2026/Zhu_NatChem_2026_SI.pdf"
   abstract: "Single-molecule toroics, materials that combine spin and chirality at the molecular level, are promising candidates for applications in data storage, chiral spintronics and magnetoelectric devices. Over the past two decades, substantial progress has been made in the design of toroidal spin states via ligand design and coordination chemistry strategies. However, achieving homochiral magnetic vortex configurations across both molecular and unit-cell scales—a key prerequisite to induce the toroidal polarization using a homogeneous magnetic field—remains challenging. Here we report enantiopure chiral dysprosium triangles in which introduction of structural chirality induces spin homochirality. μ-SQUID magnetometry and <i>ab initio</i> calculations evidence a non-coplanar spin texture that exhibits a toroidal ground state at low temperature. Furthermore, magneto-chiral dichroism spectroscopy, a technique sensitive to both chirality and magnetization, reveals unusual behaviours below 4.5 K, the temperature at which the coupling between Dy(III) ions favours the generation of a toroidal spin state."
   image: "assets/publications/2026/Zhu_NatChem_2026.png"
+
+- title: "Zeeman Level Anti-Crossing and Slow Magnetic Relaxation in an S-Functionalized Abnormal NHC-Supported Linear Co<sup>II</sup><sub>3</sub> Single-Molecule Magnet"
+  authors:
+    - S. Mondal
+    - S. Kumar
+    - S. Das
+    - L. Ungur
+    - B. Schwarz
+    - K. C. Mondal
+  group_members:
+    - L. Ungur
+  year: "2026"
+  journal: Inorganic Chemistry
+  links:
+    doi: 10.1021/acs.inorgchem.6c01997
+    # pdf: "assets/publications/2026/Mondal_IC_2026.pdf"
+    si: "assets/publications/2026/Mondal_IC_2026_SI.pdf"
+  abstract: "A novel trinuclear cobalt(II) complex, [(S-MIC)<sub>2</sub>Co<sup>II</sup><sub>3</sub>I<sub>2</sub>(μ<sub>2</sub>-Cl)<sub>4</sub>(THF)<sub>2</sub>]·4THF (<b>1</b>), supported by a zwitterionic ylide-type sulfur-functionalized abnormal N-heterocyclic carbene (S-MIC) ligand, has been synthesized and characterized as the first S-functionalized aNHC-supported cobalt(II) single-molecule magnet (SMM). X-ray diffraction reveals a linear trinuclear Co<sup>II</sup><sub>3</sub> core in which the central Co(II) adopts a distorted octahedral geometry, while each terminal Co(II) is distorted tetrahedral, coordinated by two μ<sub>2</sub>-chlorides, one terminal iodide, and one sulfur donor from S-MIC. The χ<sub>T</sub> value of 10.3 cm<sup>3</sup> K mol<sup>-1</sup> at 300 K indicates significant orbital angular momentum contributions. Ab initio SA-CASSCF/NEVPT2 calculations with POLY_ANISO analysis reveal weak antiferromagnetic coupling (<i>J</i> = -3.39 cm<sup>-1</sup>; <i>J</i>' = -1.15 cm<sup>-1</sup>) and axial anisotropy (<i>D</i> values of -66.81 cm<sup>-1</sup> for the central and -20.46 cm<sup>-1</sup> for the terminal Co(II)). This weak coupling causes level anti-crossing of low-lying Zeeman levels, yielding open hysteresis and a marked magnetization-slope change near 35 kOe. Isothermal DC magnetization at 35 kOe confirms slow relaxation, with a τ of 451(3) s at 1.8 K. AC susceptibility measurements at 20 DC fields yield an effective barrier (<i>U</i><sub>eff</sub> = 25(20) K) under a QTM+Orbach model, discussed alongside ab initio calculations, underscoring the potential of S-functionalized carbene ligands for tuning coordination geometries and constructing multinuclear Co-based SMMs."
+  image: "assets/publications/2026/Mondal_IC_2026.png"
+
+- title: Long-Range Charge Transfer (LRCT)-Driven Enhancement of SOC and rISC in Donor-Modified MR-TADF Emitters
+  authors:
+    - H. Wen
+    - L. Ungur
+  group_members:
+    - H. Wen
+    - L. Ungur
+  year: "2026"
+  journal: Journal of Chemical Theory and Computation
+  links:
+    doi: 10.1021/acs.jctc.5c01905
+    # pdf: "assets/publications/2026/Wen_JCTC_2026.pdf"
+    si: "assets/publications/2026/Wen_JCTC_2026_SI.pdf"
+  abstract: "Multi-Resonance Thermally Activated Delayed Fluorescence (MR-TADF) materials are leading candidates for high-efficiency narrowband Organic Light-Emitting Diodes (OLEDs), yet the electronic factors governing their reverse Intersystem Crossing (rISC) rates remain a subject of debate. In this work, we established a computational framework to investigate the factors governing the S<sub>1</sub>–T<sub>1</sub> crossing in donor-modified MR-TADF emitters. By employing Orbital-Optimized DFT (OO-DFT), we achieved accurate predictions of the singlet–triplet gap (ΔE<sub>ST</sub>) in close agreement with experimental data (RMSE = 0.079 eV). Using a specialized Charge Transfer descriptor CT<sub>S1T1</sub>, we screened 8 candidates exhibiting Long-Range Charge Transfer (LRCT) character during the S<sub>1</sub>–T<sub>1</sub> transition out of a 20-molecule database. All selected candidates show enhanced SOC upon donor modification, with Spin–Orbit Coupling Matrix Element (SOCME) values of up to 1.1 cm<sup>-1</sup>. Marcus theory was applied to estimate qualitative spin-conversion trends and identify candidates with favorable crossing regimes. MECP analysis of the selected candidates shows how reorganization energy, seam accessibility, and energy-gap matching affect the S<sub>1</sub>–T<sub>1</sub> crossing. ORCA ESD calculations of the elementary radiative rate k<sub>r</sub>, ISC rate k<sub>ISC</sub>, and Franck–Condon contribution k<sub>ISC</sub><sup>FC</sup> were used to assess vibronic participation in the S<sub>1</sub>–T<sub>1</sub> spin-flip process. These findings provide a theoretical perspective on the S<sub>1</sub>–T<sub>1</sub> spin-flip mechanism and offer practical design insights for developing high-efficiency MR-TADF materials with intrinsically fast spin conversion."
+  image: "assets/publications/2026/Wen_JCTC_2026.png"

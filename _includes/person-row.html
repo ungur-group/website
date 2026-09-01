@@ -1,0 +1,25 @@
+{% assign person = include.person %}
+<div class="person-row">
+  <div class="person-image-container">
+    <img
+      src="{{ person.image | default: 'assets/people/default.png' }}"
+      alt="{{ person.name }}"
+      class="person-image">
+  </div>
+
+  <div class="person-content">
+    <div class="person-header">
+      <h3 class="person-name">{{ person.name }}</h3>
+
+      <div class="social-icons">
+        {% for link in person.links %}
+          {% assign platform = link[0] %}
+          {% assign url = link[1] %}
+          {% include social-icon.html platform=platform url=url %}
+        {% endfor %}
+      </div>
+    </div>
+
+    <p class="person-prose">{{ person.prose }}</p>
+  </div>
+</div>

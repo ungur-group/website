@@ -1,25 +1,51 @@
 ---
 layout: default
 title: Home
-description: "The Ungur Group at NUS: Advancing Molecular Magnetism through Computational Innovation."
+description: "The Ungur Group at NUS: Advancing Materials Science through Computational Innovation."
 ---
 
 <section class="hero-header">
-  <div style="text-align: center;">
-    <p class="title">Ungur Group @ NUS</p>
+  <div class="hero-text">
+    <h1 class="tagline">
+      <span class="tagline-1">Advancing Materials Science</span>
+      <span class="tagline-2">through Computational Innovation</span>
+    </h1>
+    <div class="hero-rule"></div>
+    <p class="execution">We develop and apply
+      <em>ab initio</em>
+      and machine learning methods to investigate electronic, optical, and magnetic properties.</p>
   </div>
-
-  <p class="tagline">Advancing Molecular Magnetism through Computational Innovation.</p>
-  <p class="execution">We develop and apply ab initio and machine learning methods to investigate the electronic, optical, and magnetic properties of molecular materials.</p>
+  <div class="hero-image">
+    <img
+      src="assets/home/hero.png"
+      alt="TOC graphic: Er-trensal complex from Ab Initio Crystal Field for Lanthanides">
+  </div>
 </section>
 
 <section class="research-cards">
   <h2>Research Interests</h2>
   <div class="research-grid">
-    {% for item in site.data.research %}
+    {% for group in site.data.research %}
       <div class="research-card">
-        <h3>{{ item.title }}</h3>
-        <p>{{ item.description }}</p>
+        <div class="research-icon">
+          <img
+            src="{{ '/assets/research_interests/' | append: group.icon | append: '_light.svg' | relative_url }}"
+            alt=""
+            aria-hidden="true"
+            class="research-icon-img research-icon-img--light">
+          <img
+            src="{{ '/assets/research_interests/' | append: group.icon | append: '_dark.svg' | relative_url }}"
+            alt=""
+            aria-hidden="true"
+            class="research-icon-img research-icon-img--dark">
+        </div>
+        <h3>{{ group.header }}</h3>
+        <ul>
+          {% for item in group.items %}
+            <li>
+              <strong>{{ item.title }}</strong>: {{ item.description }}</li>
+          {% endfor %}
+        </ul>
       </div>
     {% endfor %}
   </div>
@@ -34,17 +60,18 @@ description: "The Ungur Group at NUS: Advancing Molecular Magnetism through Comp
         <strong>{{ item.title }}</strong>
         is published in
         <i>{{ item.journal }}</i>
-        ({{ item.year }}) [<a href="{{ item.links.doi }}">doi</a>]
+        ({{ item.year }}) [<a href="{{ 'https://doi.org/' | append: item.links.doi }}">doi</a>]
       </li>
     {% endfor %}
   </ul>
 
   <h2>Recent News</h2>
   <ul>
-    {% assign sorted_news = site.data.news | sort: "year" | reverse %}
+    {% assign sorted_news = site.data.news | sort: "date" | reverse %}
     {% for item in sorted_news limit: 5 %}
       <li>
-        {{ item.content }}
+        <strong>{{ item.date | date: "%b %Y" }}</strong>
+        — {{ item.content }}
       </li>
     {% endfor %}
   </ul>

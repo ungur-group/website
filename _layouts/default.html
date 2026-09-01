@@ -5,6 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% seo %}
 
+    <link
+      rel="icon"
+      type="image/x-icon"
+      sizes="any"
+      href="{{ '/favicon.ico' | relative_url }}">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,400;0,600;1,400&family=Alegreya+Sans:wght@400;700&display=swap" rel="stylesheet">
+
     <script>
       (function() {
         const saved = localStorage.getItem('theme');
@@ -28,16 +41,100 @@
     <script>
       document.addEventListener('DOMContentLoaded', function() {
         const toggle = document.getElementById('theme-toggle');
-        if (!toggle) return;
+        if (toggle) {
+          toggle.addEventListener('click', function() {
+            const html = document.documentElement;
+            const current = html.getAttribute('data-theme') || 'light';
+            const next = current === 'dark' ? 'light' : 'dark';
 
-        toggle.addEventListener('click', function() {
-          const html = document.documentElement;
-          const current = html.getAttribute('data-theme') || 'light';
-          const next = current === 'dark' ? 'light' : 'dark';
+            html.setAttribute('data-theme', next);
+            localStorage.setItem('theme', next);
+          });
+        }
 
-          html.setAttribute('data-theme', next);
-          localStorage.setItem('theme', next);
-        });
+        const navToggle = document.getElementById('nav-toggle');
+        const nav = document.getElementById('site-nav');
+        const backdrop = document.getElementById('nav-backdrop');
+        if (navToggle && nav && backdrop) {
+          const setOpen = function(open) {
+            document.body.classList.add('nav-anim');
+            nav.classList.toggle('open', open);
+            backdrop.classList.toggle('open', open);
+            navToggle.setAttribute('aria-expanded', String(open));
+            document.body.classList.toggle('nav-open', open);
+            window.setTimeout(function() {
+              document.body.classList.remove('nav-anim');
+            }, 300);
+          };
+
+          navToggle.addEventListener('click', function() {
+            setOpen(!nav.classList.contains('open'));
+          });
+          backdrop.addEventListener('click', function() {
+            setOpen(false);
+          });
+          nav.querySelectorAll('a').forEach(function(a) {
+            a.addEventListener('click', function() {
+              setOpen(false);
+            });
+          });
+          document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') setOpen(false);
+          });
+        }
+
+        const header = document.querySelector('.site-header');
+        if (header) {
+          const MEDIA_TAGS = ['IMG', 'PICTURE', 'VIDEO', 'CANVAS', 'SVG'];
+
+          // Walks up from the sampled element to find what's actually
+          // painted behind it: a media element (photo/video/svg) or a
+          // gradient background counts as distinct from a flat color.
+          const getEffectiveBg = function(el) {
+            while (el) {
+              if (MEDIA_TAGS.indexOf(el.tagName) !== -1) return 'media';
+
+              const cs = getComputedStyle(el);
+              const hasColor = cs.backgroundColor && cs.backgroundColor !== 'rgba(0, 0, 0, 0)' && cs.backgroundColor !== 'transparent';
+              const hasImage = cs.backgroundImage && cs.backgroundImage !== 'none';
+              if (hasImage) return 'image';
+              if (hasColor) return cs.backgroundColor;
+              el = el.parentElement;
+            }
+            return null;
+          };
+
+          let ticking = false;
+          const updateScrolled = function() {
+            ticking = false;
+
+            if (window.scrollY <= 0) {
+              header.classList.remove('is-scrolled', 'is-thin');
+              return;
+            }
+
+            const rect = header.getBoundingClientRect();
+            const sampleX = rect.left + rect.width / 2;
+            const sampleY = rect.bottom + 2;
+            const below = document.elementFromPoint(sampleX, sampleY);
+            const headerBg = getComputedStyle(header).backgroundColor;
+            const belowBg = below ? getEffectiveBg(below) : null;
+            const differs = !!belowBg && belowBg !== headerBg;
+
+            header.classList.add('is-scrolled');
+            header.classList.toggle('is-thin', !differs);
+          };
+          const onScroll = function() {
+            if (!ticking) {
+              ticking = true;
+              window.requestAnimationFrame(updateScrolled);
+            }
+          };
+
+          updateScrolled();
+          window.addEventListener('scroll', onScroll, { passive: true });
+          window.addEventListener('resize', onScroll);
+        }
       });
     </script>
   </body>

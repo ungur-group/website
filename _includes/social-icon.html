@@ -1,11 +1,13 @@
 {% assign platform = include.platform | downcase %}
 {% assign url = include.url %}
 
-{% if url %}
+{% if platform and url %}
   <a
-    href="{{ url }}"
+    href="{% if platform == 'email' %}mailto:{{ url }}{% else %}{{ url }}{% endif %}"
+    {% unless platform == 'email' %}
     target="_blank"
     rel="noopener noreferrer"
+    {% endunless %}
     aria-label="{{ platform }}"
     class="social-link">
 
