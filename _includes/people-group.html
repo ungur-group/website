@@ -1,0 +1,12 @@
+{% assign list = include.list %}
+{% assign heading = include.heading %}
+
+{% if list.size > 0 %}
+  <h2>{{ heading }}</h2>
+
+  <div class="people-list">
+    {% for person in list %}
+      {% include person-row.html person=person %}
+    {% endfor %}
+  </div>
+{% endif %}

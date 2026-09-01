@@ -13,7 +13,7 @@
   & .pub-author + .pub-author::before {
     content: ", ";
     white-space: pre;
-    color: var(--text-primary);
+    color: var(--fg);
   }
 
   & .group-member {
@@ -61,6 +61,7 @@
 .pub-links {
     display: flex;
     gap: 10px;
+    margin: 5px 0;
 }
 
 .pub-link-text {

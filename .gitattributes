@@ -5,3 +5,5 @@
 *.txt filter=lfs diff=lfs merge=lfs -text
 *.docx filter=lfs diff=lfs merge=lfs -text
 *.mp4 filter=lfs diff=lfs merge=lfs -text
+
+assets/people/** -filter -diff -merge -text

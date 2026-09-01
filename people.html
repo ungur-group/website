@@ -1,7 +1,7 @@
 ---
 layout: default
-title: People
-description: "Meet the researchers and members of the Ungur Group at NUS."
+title: Group Members — Ungur Group | Computational Chemistry at NUS
+description: "Meet the researchers and members of the Ungur Group, a computational chemistry research group at the National University of Singapore."
 ---
 
 {% assign active = site.data.people | where: "status", "active" %}
@@ -12,34 +12,6 @@ description: "Meet the researchers and members of the Ungur Group at NUS."
   <img src="assets/people/group_photo_2026.png" alt="Group photo" class="group-photo">
 </div>
 
-{% if active.size > 0 %}
-  <h2>Active members</h2>
-
-  <div class="people-list">
-    {% for person in active %}
-      {% include person-row.html person=person %}
-    {% endfor %}
-  </div>
-{% endif %}
-
-{% if visiting.size > 0 %}
-  <h2>Visiting members</h2>
-
-  <div class="people-list">
-    {% for person in visiting %}
-      {% include person-row.html person=person %}
-    {% endfor %}
-  </div>
-{% endif %}
-
-{% if past.size > 0 %}
-  <h2>Past members</h2>
-
-  Past members are gratefully acknowledged for their contributions, and if you wish to be listed here, please reach out to us with the appropriate information.
-
-  <div class="people-list">
-    {% for person in past %}
-      {% include person-row.html person=person %}
-    {% endfor %}
-  </div>
-{% endif %}
+{% include people-group.html heading="Active members" list=active %}
+{% include people-group.html heading="Visiting members" list=visiting %}
+{% include people-group.html heading="Past members" list=past %}

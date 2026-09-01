@@ -73,6 +73,11 @@
   transition: color 0.2s ease, transform 0.2s ease;
   display: inline-flex;
   line-height: 0;
+
+  svg {
+    width: 28px;
+    height: 28px;
+  }
 }
 
 .social-link:hover,

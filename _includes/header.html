@@ -107,9 +107,7 @@
     </button>
 
     {% for item in site.data.navigation %}
-      {% assign current_url = page.url | remove: ".html" %}
-      {% assign item_url = item.link | remove: ".html" %}
-      <a class="page-link {% if current_url == item_url %}active{% endif %}" href="{{ item.link | relative_url }}">{{ item.name }}</a>
+      <a class="page-link {% if page.url == item.link %}active{% endif %}" href="{{ item.link | relative_url }}">{{ item.name }}</a>
     {% endfor %}
     </div>
   </nav>

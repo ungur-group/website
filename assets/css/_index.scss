@@ -7,7 +7,6 @@
     border-radius: 16px;
     background: var(--hero-bg);
     color: var(--hero-fg);
-    border-bottom: none;
     margin-bottom: 40px;
     --tagline-size: 38px;
     --hero-text-gap: clamp(14px, calc(var(--tagline-size) * 12 / 19), 24px);
@@ -20,7 +19,7 @@
 
     .tagline {
         margin: 0;
-        font-family: 'Alegreya Sans', sans-serif;
+        font-family: var(--hero-font);
         font-size: var(--tagline-size);
         line-height: 1.14;
         font-weight: 700;
@@ -54,7 +53,7 @@
 
     .execution {
         margin: 0;
-        font-family: 'Alegreya Sans', sans-serif;
+        font-family: var(--hero-font);
         /* Keeps the same ratio to the tagline (20px at the 38px base
            size) so it scales proportionally at every breakpoint. */
         font-size: clamp(16px, calc(var(--tagline-size) * 10 / 19), 20px);
@@ -108,15 +107,14 @@
 }
 
 .research-cards {
-    border-top: 2px solid var(--border-color);
-    padding-top: 0px;
+    padding-top: 0;
 
     .research-grid {
         display: grid;
         /* min(400px, 100%) keeps cards from overflowing narrow phone widths. */
         grid-template-columns: repeat(auto-fill, minmax(min(400px, 100%), 1fr));
         gap: 20px;
-        margin: 30px 0px;
+        margin: 30px 0;
     }
 
     .research-card {
@@ -167,8 +165,6 @@
 }
 
 .cta {
-    padding-top: 5px;
-    border-bottom: none;
 
     .cta-button {
         display: inline-block;

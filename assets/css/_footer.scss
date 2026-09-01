@@ -1,5 +1,6 @@
 .site-footer {
     border-top: 2px solid var(--border-color);
-    color: #666;
+    color: var(--fg);
+    opacity: 0.6;
     font-size: 0.9em;
 }
