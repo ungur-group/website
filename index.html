@@ -1,0 +1,57 @@
+---
+layout: default
+title: Home
+description: "The Ungur Group at NUS: Advancing Molecular Magnetism through Computational Innovation."
+---
+
+<section class="hero-header">
+  <div style="text-align: center;">
+    <p class="title">Ungur Group @ NUS</p>
+  </div>
+
+  <p class="tagline">Advancing Molecular Magnetism through Computational Innovation.</p>
+  <p class="execution">We develop and apply ab initio and machine learning methods to investigate the electronic, optical, and magnetic properties of molecular materials.</p>
+</section>
+
+<section class="research-cards">
+  <h2>Research Interests</h2>
+  <div class="research-grid">
+    {% for item in site.data.research %}
+      <div class="research-card">
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.description }}</p>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="news">
+  <h2>Recent Publications</h2>
+  <ul>
+    {% assign sorted_pubs = site.data.publications | sort: "year" | reverse %}
+    {% for item in sorted_pubs limit: 5 %}
+      <li>
+        <strong>{{ item.title }}</strong>
+        is published in
+        <i>{{ item.journal }}</i>
+        ({{ item.year }}) [<a href="{{ item.links.doi }}">doi</a>]
+      </li>
+    {% endfor %}
+  </ul>
+
+  <h2>Recent News</h2>
+  <ul>
+    {% assign sorted_news = site.data.news | sort: "year" | reverse %}
+    {% for item in sorted_news limit: 5 %}
+      <li>
+        {{ item.content }}
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="cta">
+  <h2>Join Us!</h2>
+  <p>We are always on the lookout for motivated researchers at any level (postdoc, PhD, MSc or undergraduate) to join our team! Please reach out if you are interested in our work.</p>
+  <a href="mailto:chmlu@nus.edu.sg" class="cta-button">Contact the PI</a>
+</section>

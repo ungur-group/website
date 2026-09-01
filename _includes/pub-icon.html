@@ -1,0 +1,18 @@
+{% assign type = include.type | downcase %}
+{% assign url = include.url %}
+
+{% if url %}
+  {% if type == 'doi' %}
+    {% assign final_url = 'https://doi.org/' | append: url %}
+  {% else %}
+    {% assign final_url = url %}
+  {% endif %}
+
+  <a
+    href="{{ final_url }}"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="pub-link-text">
+    {{ type }}
+  </a>
+{% endif %}

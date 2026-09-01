@@ -1,0 +1,38 @@
+---
+layout: default
+title: People
+description: "Meet the researchers and members of the Ungur Group at NUS."
+---
+
+<h2>Active members</h2>
+
+Past members are gratefully acknowledged for their contributions, and if you wish to be listed here, please reach out to us with the appropriate information.
+
+<div class="people-list">
+  {% for person in site.data.people %}
+    <div class="person-row">
+      <div class="person-image-container">
+        <img
+          src="{{ person.image | default: 'assets/people/default.png' }}"
+          alt="{{ person.name }}"
+          class="person-image">
+      </div>
+
+      <div class="person-content">
+        <div class="person-header">
+          <h3 class="person-name">{{ person.name }}</h3>
+
+          <div class="social-icons">
+            {% for link in person.links %}
+              {% assign platform = link[0] %}
+              {% assign url = link[1] %}
+              {% include social-icon.html platform=platform url=url %}
+            {% endfor %}
+          </div>
+        </div>
+
+        <p class="person-prose">{{ person.prose }}</p>
+      </div>
+    </div>
+  {% endfor %}
+</div>

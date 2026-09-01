@@ -1,0 +1,67 @@
+---
+layout: default
+title: Publications
+description: "A list of publications from the Ungur Group at NUS, focusing on molecular magnetism and computational innovation."
+---
+
+<h2>Publications</h2>
+
+<p>
+  <b>Bold names</b>
+  denote group members at the point of publication.
+</p>
+
+{% assign grouped_pubs = site.data.publications | group_by: 'year' | sort: 'name' | reverse %}
+{% assign running_number = site.data.publications | size %}
+
+{% for group in grouped_pubs %}
+  <h3>{{ group.name }}</h3>
+
+  {% assign sorted_group = group.items | sort: 'year' | reverse %}
+
+  {% for pub in sorted_group %}
+    <div class="pub-container">
+      <h4 class="pub-title">
+        {{ running_number }}. {{ pub.title }}
+      </h4>
+      {% assign running_number = running_number | minus: 1 %}
+
+      <p class="pub-authors">
+        {%- for author in pub.authors -%}
+          <span class="pub-author{% if pub.group_members contains author %} group-member{% endif %}">
+            {{- author -}}
+          </span>
+        {%- endfor -%}
+      </p>
+
+      <div class="pub-meta">
+        <em>{{ pub.journal }}</em>
+        ({{ pub.year }})
+      </div>
+
+      <div class="pub-links" style="margin: 5px 0;">
+        {% for link in pub.links %}
+          {% assign key = link[0] %}
+          {% assign url = link[1] %}
+          {% include pub-icon.html type=key url=url %}
+        {% endfor %}
+      </div>
+
+      {% if pub.image %}
+        <img
+          src="{{ pub.image }}"
+          alt="Graphical abstract for {{ pub.title }}"
+          class="pub-image">
+      {% endif %}
+
+      <details class="pub-abstract">
+        <summary>Abstract</summary>
+        <div class="abstract-content">
+          {{ pub.abstract }}
+        </div>
+      </details>
+    </div>
+
+
+  {% endfor %}
+{% endfor %}

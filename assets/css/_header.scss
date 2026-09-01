@@ -1,0 +1,70 @@
+.site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid var(--border-color);
+    padding: 10px 0;
+    margin-bottom: 20px;
+    position: sticky;
+    top: 0;
+    background-color: var(--bg);
+    z-index: 1000;
+}
+
+.site-nav {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.site-title, .page-link {
+    color: var(--fg);
+    text-decoration: none;
+}
+
+.site-title {
+    font-family: Inter, system-ui, sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    letter-spacing: 0.15em;
+    color: var(--accent);
+}
+
+.page-link:hover,
+.page-link.active {
+    text-decoration: underline 4px var(--accent);
+    text-underline-offset: 7px;
+}
+
+.theme-toggle {
+    cursor: pointer;
+    background: var(--fg);
+    color: var(--bg);
+    border: none;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+
+    svg {
+        width: 16px;
+        height: 16px;
+    }
+
+    .sun-icon {
+        display: none;
+    }
+
+    [data-theme="dark"] & {
+        .moon-icon { display: none; }
+        .sun-icon { display: block; }
+    }
+
+    &:hover {
+        color: var(--accent);
+        transform: scale(1.15);
+    }
+}

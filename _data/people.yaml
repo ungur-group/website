@@ -1,0 +1,47 @@
+- name: "Dr. Liviu UNGUR"
+  prose: "Liviu is the Principle Investigator (i.e. the boss). He obtained his B.Sc. in Chemistry at the State University of Moldova in 2005, and went on to pursue his studies at KU Leuven, Belgium, where he earned his Ph.D. in 2010 under the supervision of Professor L. F. Chibotaru. During his doctoral and postdoctoral research, he developed ab initio software for calculating the magnetic properties of molecules. He was awarded two prestigious three-year fellowships from the Flemish Science Foundation (FWO) in 2011 and 2014. From 2015 to 2016, he collaborated with Professor P.A. Malmqvist and Professor V. Veryazov at Lund University, Sweden focusing on the development of novel computational methods in the MOLCAS package. He joined NUS in June 2018 as a tenure track Assistant Professor. His current research focuses on the computational investigation of the electronic, optical and magnetic properties of molecular materials. More recently, his interest has expanded to include leveraging new machine learning and artificial intelligence techniques to enhance computational modelling, particularly in the areas of phonons and spin-phonon couplings."
+  links:
+    email: "chmlu@nus.edu.sg"
+    scholar: "https://scholar.google.com/citations?user=Pn-zPAQAAAAJ&hl=en"
+    orcid: "https://orcid.org/0000-0001-5015-4225"
+
+- name: "Ran MO"
+  image: "assets/people/moran.png"
+  prose: "Ran is a fourth-year PhD candidate, whose research interest is to train machine learning models to predict properties of complex crystalline chemical systems. His research lives at an intersection of computational chemistry, machine learning, and solid-state physics. When he gets his free time (or when the supercomputer servers go down), he spends many of his time in front of his piano or in a concert for classical music. He is quite into linguistics as well. If you have any trivia about languages, he will be more than happy to hear them!"
+  links:
+    email: "mo.ran@u.nus.edu"
+
+- name: "Elusy, WEN Hanqi"
+  image: "assets/people/elusy.png"
+  prose: "Elusy is currently a fourth-year Ph.D. student. Her research interests include spin–orbit coupling, vibronic coupling, and luminescence. In her free time, she occasionally becomes a Muay Thai fighter when calculations take forever, and a movie enthusiast whenever they finally converge perfectly."
+  links:
+    email: "wenhanqi@u.nus.edu"
+
+- name: "Bisheng ZHAO"
+  image: "assets/people/bisheng.png"
+  prose: "Bisheng first joined the group as a M.Sc. student and is currently a Ph.D. student. He earned his M.Sc. in Chemical Sciences from the National University of Singapore and his B.Sc. in Applied Chemistry from Huazhong Agricultural University. His research investigates developing machine learning models to accelerate complex quantum chemical property calculations."
+  links:
+    email: "zhaobisheng@u.nus.edu"
+    linkedin: "http://www.linkedin.com/in/zhaobisheng"
+
+- name: "Brian KU"
+  image: "assets/people/brian.png"
+  prose: "Brian joined the group as an FYP student and is currently a Research Assistant. His research focuses on developing and applying machine learning methods to electronic structure problems spanning materials science and molecular magnetism. Motivated by an interest in improving how scientific research is conducted, he supervises students and develops low-friction systems that improve knowledge sharing and accelerate scientific progress. Outside of work, or whenever the computing servers go down, he enjoys various sports, chess, exploring new places, or simply listening to classical music."
+  links:
+    email: "brian.ku@u.nus.edu"
+    website: "https://kubrian.github.io"
+    github: "https://github.com/kubrian"
+
+- name: "Donghwan KIM"
+  image: "assets/people/donghwan.png"
+  prose: "Donghwan joined the group first as a UROPS student and is now completing his FYP. His current research develops a machine-learning interatomic potential (MLIP) trained on Quantum ESPRESSO–based AIMD data to simulate iron oxidation reactions, with experience across DFT and classical MD. He came to computational chemistry through an earlier interest in magnetism, which still shapes how he thinks about electronic structure. Outside the lab, he follows baseball and plays a fair share of video games."
+  links:
+    email: "donghwan_k@u.nus.edu"
+    website: "https://dhwan0112.github.io/dhk.github.io/"
+    github: "https://github.com/dhwan0112"
+
+- name: "Hazel NGO"
+  image: "assets/people/hazel.png"
+  prose: "Hazel is a UROPS student. She is interested in mathematics, quantum chemistry, and computational approaches to understanding physical systems. She is currently working on vibrational configuration interaction (VCI) methods for molecular vibrational spectroscopy"
+  links:
+    email: "e1354932@u.nus.edu"

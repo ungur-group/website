@@ -1,0 +1,7 @@
+title: Ungur Group
+description: Computational Chemistry Research Group
+url: "https://ungur.org"
+baseurl: "/website"
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
