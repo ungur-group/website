@@ -60,7 +60,7 @@ description: "The Ungur Group at NUS: Advancing Materials Science through Comput
         <strong>{{ item.title }}</strong>
         is published in
         <i>{{ item.journal }}</i>
-        ({{ item.year }}) [<a href="{{ 'https://doi.org/' | append: item.links.doi }}">doi</a>]
+        ({{ item.year }}) [<a href="{{ item.links.doi }}">doi</a>]
       </li>
     {% endfor %}
   </ul>

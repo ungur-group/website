@@ -68,13 +68,6 @@
   links:
     email: "e1121129@u.nus.edu"
 
-- name: "Ben HO Zhan Hong"
-  status: active
-  image: "assets/people/benho.png"
-  prose: "Ben is a fourth-year undergraduate student who first joined the group as a UROPS student in Year 2 and is now pursuing a FYP under Liviu's supervision. His interest lies in computational chemistry, machine learning, and molecular magnetism. In his free time, he enjoys exercising, running, and playing chess."
-  links:
-    email: "e1122212@u.nus.edu"
-
 - name: "Hazel NGO"
   status: active
   image: "assets/people/hazel.png"
