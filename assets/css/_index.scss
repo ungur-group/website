@@ -10,11 +10,12 @@
     border-bottom: none;
     margin-bottom: 40px;
     --tagline-size: 38px;
+    --hero-text-gap: clamp(14px, calc(var(--tagline-size) * 12 / 19), 24px);
 
     .hero-text {
         display: flex;
         flex-direction: column;
-        gap: 24px;
+        gap: var(--hero-text-gap);
     }
 
     .tagline {
@@ -56,7 +57,7 @@
         font-family: 'Alegreya Sans', sans-serif;
         /* Keeps the same ratio to the tagline (20px at the 38px base
            size) so it scales proportionally at every breakpoint. */
-        font-size: calc(var(--tagline-size) * 10 / 19);
+        font-size: clamp(16px, calc(var(--tagline-size) * 10 / 19), 20px);
         line-height: 1.4;
         font-weight: 500;
         color: var(--hero-fg);
