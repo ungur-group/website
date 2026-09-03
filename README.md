@@ -7,15 +7,20 @@ This repository contains the source code for the [Ungur Group](https://ungur.org
 To run the site locally:
 
 1. Ensure you have [Ruby](https://www.ruby-lang.org/) and [Bundler](https://bundler.io/) installed.
-2. Install dependencies:
+2. Ensure [Git LFS](https://git-lfs.com/) is installed and enabled:
+   ```bash
+   git lfs install
+   ```
+   Without this, binary assets (PDFs, images, crystal structures) will appear as small placeholder text files.
+3. Install dependencies:
    ```bash
    bundle install
    ```
-3. Serve the site:
+4. Serve the site:
    ```bash
    bundle exec jekyll serve
    ```
-4. Visit `http://localhost:4000` in your browser.
+5. Visit `http://localhost:4000` in your browser.
 
 ## Contributing
 

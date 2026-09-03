@@ -1,4 +1,4 @@
-title: Ungur Group — Computational Chemistry at NUS
+title: Ungur Group · Computational Chemistry at NUS
 description: "Computational chemistry research group at the National University of Singapore. Ab initio and machine learning methods for molecular magnetism, electronic structure, and materials science."
 url: "https://ungur.org"
 baseurl: ""
@@ -6,7 +6,11 @@ logo: /assets/logo/coloured.png
 image: /assets/logo/coloured.png
 social:
   name: Ungur Group
-  links: []
+  links:
+    - https://orcid.org/0000-0001-5015-4225
+    - https://scholar.google.com/citations?user=Pn-zPAQAAAAJ
+    - https://chemistry.nus.edu.sg/people/liviu-ungur/
+    - https://www.researchgate.net/profile/Liviu-Ungur
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
